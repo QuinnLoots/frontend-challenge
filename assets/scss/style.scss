@@ -1,0 +1,92 @@
+hr{
+    border-top:1px dotted;
+}
+
+h4{
+    margin-bottom: 5px;
+}
+
+.gridcontainer{
+    display: grid;
+    grid-template-columns: 200px auto auto 200px;
+}
+
+.maintitle{
+    grid-area: 1 / 2 / 1 / 4;
+}
+
+
+
+.mainform{
+    grid-area: 2 / 2 / 2 / 3;
+}
+
+.wrap
+    {
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    }
+.wrap input{
+    display:block;
+}
+
+.mainformpart2{
+    grid-area: 3 / 2 / 3 / 3;
+}
+
+.mainformpart2-2{
+    grid-area: 3 / 3 / 3 / 4;
+}
+
+.secondhr{
+    grid-area: 4/ 2 / 4 / 4;
+}
+
+.mainformpart3{
+    grid-area: 5 / 2 / 5 / 3;
+}
+
+.mainformpart3-2{
+    grid-area: 5 / 3 / 5 / 4;
+}
+
+.mainformpart4{
+    grid-area: 6 / 2 / 6 / 4;
+}
+
+.wrapspecial{
+    @extend .wrap;
+    clear: both;
+}
+.wrapspecial select{
+    display:block;
+}
+.mainformpart5{
+    grid-area: 7/ 2 / 7 / 3;
+}
+.mainformpart5-2{
+    grid-area: 7/ 3 / 7 / 4;
+}
+.mainformpart6{
+    grid-area: 8/ 2 / 8 / 3;
+}
+.mainformpart6-2{
+    grid-area: 8/ 3 / 8 / 4;
+}
+
+.thirdhr{
+    grid-area: 9/2/9/4;
+}
+.mainformpart7{
+    grid-area: 10/ 2 / 10/ 4;
+}
+.mainformpart8{
+    grid-area: 11/ 2 / 11/ 3;
+}
+.mainformpart8-2{
+    grid-area: 11/ 3 / 11/ 4;
+}
+.mainformpart9{
+    grid-area: 12/ 2 / 12/ 4;
+}
